@@ -1,0 +1,29 @@
+{
+	"name": "ernadoo/visitcounterbyforum",
+	"type": "phpbb-extension",
+	"description": "This extension adds a counter next to each forum name, displaying the number of visitors navigate into this forum.",
+	"homepage": "https://github.com/ErnadoO/ext-visit-counter-by-forum",
+	"version": "1.0.0",
+	"time": "2015-11-15",
+	"license": "GPL-2.0",
+	"authors": [
+		{
+			"name": "Erwan Nader",
+			"email": "ernadoo@phpbb-services.com",
+			"homepage": "http://www.phpbb-services.com",
+			"role": "Lead Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.3.3"
+	},
+	"require-dev": {
+		"phpbb/epv": "dev-master"
+	},
+	"extra": {
+		"display-name": "Visit counter by forum",
+		"soft-require": {
+			"phpbb/phpbb": ">=3.1.6,<3.2.*@dev"
+		}
+	}
+}

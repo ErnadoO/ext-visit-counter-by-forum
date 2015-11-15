@@ -1,0 +1,7 @@
+services:
+    ernadoo.visitcounterbyforum.event.listener:
+        class: ernadoo\visitcounterbyforum\event\listener
+        arguments:
+            - @user
+        tags:
+            - { name: event.listener }
